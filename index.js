@@ -1,11 +1,14 @@
+
+var window = require('window');
+
 module.exports = {
     book: {
     },
 
     hooks: {
         'finish': function() {
-            var _app_uuid = this.book.config.get("app_uuid") || 'a600998e-efff-11e5-9d9f-02287b8c0ebf' ,
-                _ppmessage_url = this.book.config.get("ppmessage_url") || 'https://ppmessage.cn/ppcom/assets/pp-library.min.js';
+            var _app_uuid = this.config.get("app_uuid") || 'a600998e-efff-11e5-9d9f-02287b8c0ebf' ,
+                _ppmessage_url = this.config.get("ppmessage_url") || 'https://ppmessage.cn/ppcom/assets/pp-library.min.js';
                 
             window.ppSettings = {
                 app_uuid:_app_uuid
