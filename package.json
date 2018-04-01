@@ -1,0 +1,43 @@
+{
+    "name": "gitbook-plugin-ppmessage",
+    "version": "0.0.1",
+    "description": "Run PPMESSAGE in Gitbook",
+    "author": {
+        "name": "Guijin Ding",
+        "email": "dingguijin@gmail.com"
+    },
+    "repository": "PPMESSAGE/gitbook-plugin-ppmessage",
+    "keywords": [
+        "livechat",
+        "ppmessage",
+        "chat",
+        "gitbook"
+    ],
+
+    "engines": {
+        "gitbook": ">=3.0.0"
+    },
+
+    "gitbook": {
+        
+        "properties": {
+            "app_uuid": {
+                "type": "string",
+                "default": "a600998e-efff-11e5-9d9f-02287b8c0ebf",
+                "description": "Your PPMESSAGE team uuid!"
+            },
+
+            "ppmessage_url": {
+                "type": "string",
+                "default": "https://ppmessage.cn/ppcom/assets/pp-library.min.js",
+                "description": "PPMESSAGE js url!"
+            }            
+        }
+    },
+    
+    "dependencies": {
+    },
+    "analyze": true,
+    "license": "MIT",
+    "homepage": "https://ppmessage.cn"
+}
