@@ -1,5 +1,8 @@
 
-var window = require('window');
+var Window = require('window');
+
+const { document } = new Window();
+const window = new Window();
 
 module.exports = {
     book: {
