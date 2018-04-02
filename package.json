@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-ppmessage",
-    "version": "0.0.5",
+    "version": "0.0.9",
     "description": "Run PPMESSAGE in Gitbook",
     "author": {
         "name": "Guijin Ding",
@@ -15,7 +15,7 @@
     ],
 
     "engines": {
-        "gitbook": ">=3.0.0"
+        "gitbook": ">=3.2.0"
     },
 
     "gitbook": {
@@ -36,7 +36,6 @@
     },
     
     "dependencies": {
-        "window":""
     },
     
     "analyze": true,
